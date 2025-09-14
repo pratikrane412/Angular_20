@@ -11,9 +11,9 @@ export class DataBinding {
   // string, number , boolean, date
 
   courseName: string = "Angular 20";
-  stateName: string ="Maharashtra";
+  stateName: string = "Maharashtra";
   inputType = "radio";
-  myClassName : string = "bg-primary";
+  myClassName: string = "bg-primary";
   rollNo: number = 123;
   isIndian: boolean = true;
   currentDate: Date = new Date();
@@ -24,12 +24,12 @@ export class DataBinding {
 
   }
 
-  changeCourseName(){
+  changeCourseName() {
     this.courseName = "React JS";
     this.firstName.set("Samruddhi")
   }
 
-  showAlert(message: string){
+  showAlert(message: string) {
     alert(message);
   }
 }
